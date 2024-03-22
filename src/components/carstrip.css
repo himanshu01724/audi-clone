@@ -2,9 +2,10 @@
     display: flex;
     overflow: auto;
     scroll-behavior: smooth;
-    padding: 30px;
-    
+    padding: -10px 10px;   
 }
+.flow::-webkit-scrollbar {   display: none;   scroll-behavior: smooth; }
+ 
 
 .individual{
     display: flex;

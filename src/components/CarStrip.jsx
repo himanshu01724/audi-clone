@@ -36,32 +36,6 @@ export default function CarStrip() {
   {
     console.log(cars);
   }
-  const stripRef = useRef(null);
-
-  const scrollLeft = () => {};
-
-  const scrollRight = () => {
-    console.log("clicked");
-    if (stripRef.current) {
-      const currentScroll = stripRef.current.scrollLeft;
-      const targetScroll = currentScroll + 900; // Adjust scroll distance as needed
-
-      const scrollWithDelay = () => {
-        const scrollAmount = Math.min(
-          targetScroll - stripRef.current.scrollLeft,
-          10
-        ); // Adjust scroll speed here
-
-        stripRef.current.scrollLeft += scrollAmount;
-
-        if (stripRef.current.scrollLeft < targetScroll) {
-          setTimeout(scrollWithDelay, 10); // Adjust timeout as needed
-        }
-      };
-
-      scrollWithDelay();
-    }
-  };
 
   return (
     <>
