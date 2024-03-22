@@ -1,0 +1,50 @@
+.fourth-main{
+    height: 700px;
+    margin-top: 70px;
+    background-color: antiquewhite;
+    display: flex;
+}
+
+.fourth-first{
+    background-color: black;
+    height: 100%;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:#ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.fourth-first h2{
+    padding: 400px 100px 20px 40px;
+    font-weight: lighter;
+}
+
+.fourth-first-btn{
+    margin-left: -480px;
+}
+.fourth-first-btn button{
+    width: 170px;
+    height: 60px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    
+}
+
+.fourth-first-btn button:hover{
+    border: 1px solid #b3b3b3;
+    color:#b3b3b3;
+}
+
+.fourth-second{
+    width: 300px;
+}
+
+.fourth-second img{
+    height: 700px;
+    width: 540px;
+}
